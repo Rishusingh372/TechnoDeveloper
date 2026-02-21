@@ -1,8 +1,7 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { ChevronDown, Menu, X } from "lucide-react";
 import Logo from "../images/logo.png";
-// If using React Router, uncomment below
-// import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -40,7 +39,7 @@ const Navbar = () => {
               </button>
 
               <div
-                className={`absolute left-0 top-10 bg-white text-black rounded-xl shadow-xl w-56 py-3 transition-all duration-200 ${
+                className={`absolute left-0 top-10 bg-[#0b1b34] text-white rounded-xl shadow-xl w-56 py-3 transition-all duration-200 ${
                   serviceOpen ? "opacity-100 visible" : "opacity-0 invisible"
                 }`}
               >
@@ -67,7 +66,7 @@ const Navbar = () => {
               </button>
 
               <div
-                className={`absolute left-0 top-10 bg-white text-black rounded-xl shadow-xl w-64 py-3 transition-all duration-200 ${
+                className={`absolute left-0 top-10 bg-[#0b1b34] text-white rounded-xl shadow-xl w-64 py-3 transition-all duration-200 ${
                   industryOpen ? "opacity-100 visible" : "opacity-0 invisible"
                 }`}
               >
@@ -93,6 +92,9 @@ const Navbar = () => {
             <a href="/blog" className="hover:text-blue-400 transition">
               Blog
             </a>
+            <Link to="/plans" className="hover:text-blue-400 transition">
+              Plans
+            </Link>
           </div>
 
           {/* ✅ Mobile Button */}
@@ -137,6 +139,7 @@ const Navbar = () => {
 
           <a href="/contact" className="block">Contact</a>
           <a href="/blog" className="block">Blog</a>
+          <Link to="/plans" className="block">Plans</Link>
         </div>
       )}
     </nav>
