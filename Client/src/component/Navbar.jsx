@@ -43,13 +43,13 @@ const Navbar = () => {
                   serviceOpen ? "opacity-100 visible" : "opacity-0 invisible"
                 }`}
               >
-                <a href="/google-ads" className="block px-4 py-2 hover:bg-gray-100">
+                <a href="/google-ads" className="block px-4 py-2 hover:bg-gray-600">
                   Google Ads
                 </a>
-                <a href="/meta-ads" className="block px-4 py-2 hover:bg-gray-100">
+                <a href="/meta-ads" className="block px-4 py-2 hover:bg-gray-600">
                   Meta Ads
                 </a>
-                <a href="/website-development" className="block px-4 py-2 hover:bg-gray-100">
+                <a href="/website-development" className="block px-4 py-2 hover:bg-gray-600">
                   Website Development
                 </a>
               </div>
@@ -70,16 +70,16 @@ const Navbar = () => {
                   industryOpen ? "opacity-100 visible" : "opacity-0 invisible"
                 }`}
               >
-                <a href="/healthcare-marketing" className="block px-4 py-2 hover:bg-gray-100">
+                <a href="/healthcare-marketing" className="block px-4 py-2 hover:bg-gray-600">
                   Healthcare Marketing
                 </a>
-                <a href="/real-estate-marketing" className="block px-4 py-2 hover:bg-gray-100">
+                <a href="/real-estate-marketing" className="block px-4 py-2 hover:bg-gray-600">
                   Real Estate Marketing
                 </a>
-                <a href="/education-marketing" className="block px-4 py-2 hover:bg-gray-100">
+                <a href="/education-marketing" className="block px-4 py-2 hover:bg-gray-600">
                   Education Marketing
                 </a>
-                <a href="/home-services-marketing" className="block px-4 py-2 hover:bg-gray-100">
+                <a href="/home-services-marketing" className="block px-4 py-2 hover:bg-gray-600">
                   Home Services Marketing
                 </a>
               </div>
